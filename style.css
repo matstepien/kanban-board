@@ -1,0 +1,42 @@
+body {margin: 0;}
+* {box-sizing: border-box;}
+
+.card-placeholder {
+	background: lightgrey;
+	width: 80px;
+	height: 50px;
+	margin-left: 40px;
+}
+.board {
+	padding: 20px;
+}
+.column {
+	float: left;
+	padding-right: 100px;
+	border: 1px solid black;
+	margin: 30px 10px;
+	background: rgb(52, 152, 219);
+}
+.column-title {
+	text-align: center;
+}
+.btn-delete1 {
+	margin: 0px 0px 40px 40px;
+}
+.btn-delete2 {
+	float: right;
+	background: rgb(39, 174, 96);
+	border: none;
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+} 
+li {
+	border: 1px solid black;
+	background: rgb(39, 174, 96);
+	margin: 10px;
+}
+.ui-sortable {
+	min-height: 100px;
+}
